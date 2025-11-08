@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body { margin: 0; font-family: Arial, sans-serif; }
+        
+        header
+         {
+          background: #f5f5f5;
+          padding: 10px 20px;
+          overflow: hidden; 
+        }
+
+        header a {
+          float: right;
+          margin-left: 15px;
+          color: #333;
+          font-weight: bold;
+        }
+        
+        .Form1 {
+            width: 320px;
+            height: 400px;
+            margin: 10px auto;
+            padding: 10px;
+            box-shadow: 2px 3px 15px rgba(0,0,0,0.1);
+        }
+
+        .NewMember, .footer {
+            text-align: center;
+        }
+
+        .Form1 input[type="text"], .Form1 input[type="Password"] {
+            border: 1px solid;
+            width: 270px; 
+            padding: 10px;
+            margin-bottom:5px ;
+        }
+
+        .Form1 * {
+            margin-left: 10px;
+        }
+
+        .footer {
+            font-size: 12px;
+            color: #666;
+            margin-top: 40px;
+        }
+
+        .LinkedInSignIn {
+            border: none;
+            color: white;
+            background-color: #0076b5fb;
+            border-radius: 20px;
+            padding: 15px;
+            width: 300px;
+            cursor: pointer;
+        }
+
+        .AppleSignIn {
+            background-color: white;
+            border-radius: 20px;
+            width: 300px;
+            padding: 15px;
+            color: gray;
+            font-weight: bold;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+
+        .AppleSignIn::before {
+            content: "🍎 ";
+        }
+
+        .Form2 {
+            width: 320px;
+            height: 400px;
+            margin: 50px auto;
+        }
+
+        .Login {
+            border: 1px solid;
+            border-radius: 5px;
+            padding: 10px;
+            width: 300px;
+            height: 45px;
+            background-color:#3399FF;
+            color: white;
+            font-weight: bold;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0077b5;
+            font-size: 13px;
+        }
+
+        .Form2 * {
+            margin: 10px;
+        }
+
+        .Form2 input[type="text"], .Form2 input[type="password"] {
+            width: 270px; 
+            padding: 10px;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+        }
+
+        .Form3 {
+            width: 320px;
+            height: 350px;
+            margin: 100px auto;
+            text-align: center;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.15);
+        }
+
+        .Form3 input[type="text"], .Form3 input[type="text"] {
+            width: 270px;
+            height: 27px; 
+            padding: 10px;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+        }
+
+        .SignInbtn {
+            width: 120px;
+            height: 50px;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #00897B;
+        }
+
+      
+        .UserLogin {
+            color: white;
+            background-color: #00897B;
+            border: 1px solid;
+            border-radius: 5px;
+            padding: 10px;
+            width: 300px;
+            height: 45px;
+            font-size: 16px;
+        }
+
+        .LoginHeading {
+            color:#00897B;
+            text-align: center;
+        }
+
+        section {
+            background-color: #00897B;
+        }
+
+        
+  .LastForm {
+    width: 300px;
+    margin: 100px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    
+  }
+
+   .LastForm h2 {
+    text-align: center;
+  }
+
+  .Form3 input[type="checkbox"]
+
+  {
+    
+    margin-right: 5px;
+    text-align: left;
+  }
+  
+
+  .LastForm label {
+    font-size: 14px;
+    color: #00b894;
+  }
+
+  .LastForm input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+  }
+
+
+ .LastForm  button {
+    background: #00b894;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+
+  .LastForm p {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .LastFormSection
+  {
+    background: #00b894;
+  }
+
+
+    </style>
+</head>
+<body>
+
+
+
+    <img src="Linkedin.png" alt="LinkedIn Site">
+
+    <form action="" class="Form1">
+
+        <h1>Sign in</h1>
+        <p>Stay updated on your professional world</p>
+
+        <input type="text" placeholder="Email Or Phone">
+        <br><br>
+
+        <input class="Password" type="password" placeholder="Password">
+        <br>
+        <a href="#"> <b>Forgot Password?</b> </a>
+        <br><br>
+
+        <button class="LinkedInSignIn" type="button">Sign in</button>
+        <br><br>
+        <button class="AppleSignIn" type="button">Sign in With Apple</button>
+        <br><br>
+
+    </form>
+
+    <p class="NewMember">
+      New to LinkedIn? 
+      <a href="#"><b>Join Now</b></a> 
+    </p>
+
+    <p class="footer">
+      LinkedIn © 2021 | User Agreement | Privacy Policy | Community Policy | CopyRight Policy | Send Feedback | Language
+    </p>
+
+    <hr>
+
+    <!-- End Of Task 2-1 -->
+
+      <header>
+      <b>Scratch</b>
+      <a href="#">Login</a>
+      <a href="#">Signup</a>
+    </header>
+    <form action="" class="Form2">
+        <label for="Email">Email</label>
+        <br>
+        <input type="text" name="Email" id="Email">
+        <br>
+        <label for="Password">Password</label>
+        <br>
+        <input type="password" name="Password" id="Password">
+        <br>
+        <input class="Login" type="submit" value="Login">
+    </form>
+
+    <hr>
+
+    <!-- End Of Task 2-2 -->
+
+    <section>
+        <form action="" class="Form3">
+            <h3 class="LoginHeading">Login</h3>
+            <input type="text" placeholder="Email">
+            <br><br> 
+            <input type="text" placeholder="Password">
+            <br>
+            <input type="checkbox"> <span style="color: #5E5E5E;"> Show Password</span>
+            <br><br>
+
+            <button class="SignInbtn">SIGN IN</button>
+
+            <p style="color: #5E5E5E;"> Forgot
+                <span style="color: #00897B;">Username / Password</span>?
+            </p>
+            <p style="color: #5E5E5E;"> Don't have an account?
+                <span style="color: #00897B;">Sign Up</span>
+            </p>
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- End Of Task 2-3 -->
+
+ 
+
+    <Section class="LastFormSection">
+<form class="LastForm">
+  <h2>USER LOGIN</h2>
+  <label>Username</label>
+  <input type="text" value="admin">
+  <label>Password</label>
+  <input type="password" value="password">
+  <button type="submit">LOGIN</button>
+  <p><a href="#">Forgot Password?</a></p>
+</form>
+</Section>
+
+</body>
+</html>
+</body>
+</html>
